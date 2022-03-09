@@ -1,0 +1,15 @@
+current directory: /Users/tee/Desktop/te-twitter/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+/Users/tee/.rbenv/versions/3.1.0/bin/ruby -I /Users/tee/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20220310-52795-4ve3i7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tee/Desktop/te-twitter/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/tee/Desktop/te-twitter/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/tee/Desktop/te-twitter/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220310-52795-pehtlw/bootsnap
