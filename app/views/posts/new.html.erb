@@ -1,0 +1,12 @@
+<%= form_with model: @post do |f| %>
+
+  <%= f.label :caption %>
+  <%= f.text_field :caption %>
+
+  <!-- fields_forを使って子モデルに変更を加えられる !-->
+  <%= f.fields_for :photos do |i| %>
+    <%= i.file_field :image %>
+  <% end %>
+
+  <%= f.submit "投稿", class: "btn btn-primary" %>
+<% end %>
